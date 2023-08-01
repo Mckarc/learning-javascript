@@ -57,29 +57,42 @@
 // }
 
 // Bonus two
-let scoresDolphins;
-let scoresKoalas;
+// let scoresDolphins;
+// let scoresKoalas;
 
-const averageValue = 3;
-const dolphinsDataOne = 97 + 112 + 67;
-const koalasDataOne = 109 + 95 + 45;
+// const averageValue = 3;
+// const dolphinsDataOne = 97 + 112 + 67;
+// const koalasDataOne = 109 + 95 + 45;
 
-scoresDolphins = dolphinsDataOne / averageValue;
-scoresKoalas = koalasDataOne / averageValue;
-console.log(scoresDolphins, scoresKoalas);
+// scoresDolphins = dolphinsDataOne / averageValue;
+// scoresKoalas = koalasDataOne / averageValue;
+// console.log(scoresDolphins, scoresKoalas);
 
-if (scoresDolphins > scoresKoalas && scoresDolphins >= 100) {
-  console.log(`Dolphins win the trophy 🏆 with ${scoresDolphins}`);
-} else if (scoresKoalas > scoresDolphins && scoresKoalas >= 100) {
-  console.log(`Koalas win the the trophy 🏆 with ${scoresKoalas}`);
-} else if (
-  scoresDolphins === scoresKoalas &&
-  scoresDolphins >= 100 &&
-  scoresKoalas >= 100
-) {
-  console.log(`Both win the trophy 🏆`);
-} else {
-  console.log(`No one wins the trophy!!!`);
-}
+// if (scoresDolphins > scoresKoalas && scoresDolphins >= 100) {
+//   console.log(`Dolphins win the trophy 🏆 with ${scoresDolphins}`);
+// } else if (scoresKoalas > scoresDolphins && scoresKoalas >= 100) {
+//   console.log(`Koalas win the the trophy 🏆 with ${scoresKoalas}`);
+// } else if (
+//   scoresDolphins === scoresKoalas &&
+//   scoresDolphins >= 100 &&
+//   scoresKoalas >= 100
+// ) {
+//   console.log(`Both win the trophy 🏆`);
+// } else {
+//   console.log(`No one wins the trophy!!!`);
+// }
+// const age = 26;
+// age >= 18
+//   ? console.log("I will like to drink wine 🍷")
+//   : console.log("I will like to drink water 💦");
+
+// const drink = age >= 18 ? "wine 🍷" : "water 💦";
+// console.log(`I will like to drink ${drink}`);
 
 // Four Challenge
+// const bill = 275;
+// const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// const billCal = bill + tip;
+// console.log(
+//   `The bill was ${bill}, the tip was ${tip}, and the total value ${billCal}`
+// );
