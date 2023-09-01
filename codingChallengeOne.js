@@ -1,3 +1,4 @@
+'use strict';
 // First challenge
 // let markMass = 78;
 // let markHeight = 1.69;
