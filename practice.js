@@ -168,3 +168,56 @@
 
 // Write a JavaScript function that accepts a string as a parameter and counts the number of vowels within the string.
 // Note : As the letter 'y' can be regarded as both a vowel and a consonant, we do not count 'y' as vowel here.
+// Understanding the problem
+// - count the number of vowels in the string
+// - Y must be a consonant
+
+// Breaking up into sub-problems
+// - convert string to array
+// - Find the vowels in the string
+// - Console the number of vowels in the string
+// - Console the vowels in the string
+// -
+
+// const getVowels = function (str) {
+//   const wordToString = str.split('');
+//   let vowelsCount = 0;
+//   let vowelsArr = [];
+//   for (let i = 0; i < wordToString.length; i++) {
+//     if (
+//       wordToString[i] == 'a' ||
+//       wordToString[i] == 'e' ||
+//       wordToString[i] == 'i' ||
+//       wordToString[i] == 'o' ||
+//       wordToString[i] == 'u'
+//     ) {
+//       vowelsArr.push(wordToString[i]);
+//       vowelsCount += 1;
+//     }
+//   }
+//   console.log(`This is the array of the string: ${vowelsArr}`);
+//   return `${vowelsCount} is the number of vowels`;
+// };
+// console.log(
+//   getVowels(
+//     'Edit Your phone is verified with Fiverr. Click Edit to change your phone number'
+//   )
+// );
+
+// Write a JavaScript function that accepts a number as a parameter and checks whether it is prime or not.
+// Note : A prime number (or a prime) is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+
+// Understanding the problem
+// - check if a number is prime or not
+// - console
+
+// Breaking up into sub-problems
+// - check if a number is divisible by a number 1 or itself
+// - console if a number is prime or not
+
+const isPrime = function (num) {
+  if (num % 1 === num || num % num === 0) {
+    return true | false;
+  }
+};
+console.log(isPrime(2));
